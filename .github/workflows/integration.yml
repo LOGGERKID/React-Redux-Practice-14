@@ -2,7 +2,7 @@ name: Node Continues Integration
 
 on:
   pull_request:
-    branch: [ master ]
+    branches: [ master ]
 
 jobs:
   test_pull_request:
